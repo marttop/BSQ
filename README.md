@@ -1,6 +1,10 @@
 # BSQ
+language: C
+compilation: via Makefile, including re, clean and fclean rules
 
-The goal of this project is to find the biggest square in a map.
+./bsq [map.txt] -> To launch the program.
+
+The goal of this project is to find the biggest square in a map given in argument.
 '.' is a free space.
 'o' is an obstacle.
 
