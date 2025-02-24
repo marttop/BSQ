@@ -1,8 +1,12 @@
 # BSQ
-language: C
-compilation: via Makefile, including re, clean and fclean rules
+language: **C**
+compilation: via `Makefile`, including `re`, `clean` and `fclean` rules
 
-./bsq [map.txt] -> To launch the program.
+## Usage
+
+`./bsq [map.txt] -> To launch the program.`
+
+## Description
 
 The goal of this project is to find the biggest square in a map given in argument.
 '.' is a free space.
@@ -10,8 +14,8 @@ The goal of this project is to find the biggest square in a map given in argumen
 
 only theese two caracters can be on the map.
 
-exemple of a map :
-
+- Exemple of a map
+```
 .ooo..o..o.o.o..o.oo.o........o.oo.o....o.....o...o...oo..o..ooo........o....o........o.o.o...oo.
 .o.o.......o...o.o.oo...........o...o.o...oo.o..o..o...o...ooo....oo..ooo......o...............o.
 o..o.........o.....oo..ooo.o..o..o....o....o.oo.......oo.....oo.......o.......o..o.ooo.oo........
@@ -33,9 +37,11 @@ oooo...o............o..oo............oo...oo.....o...o....o.o.o.o.....o.o..oo...
 ..o....oo..o.o.....o.o..o.o...oo......o...o..o....o.............o..oo..............o....o..o....o
 oo......o....o.o...oo...oo.o.......o..o.o...............o..oooo..o.o.......oo..oo..........o...o.
 .oo..o.o...oo.......o.o..o.o..o..o...oo..o.oo......o....oo......oo.o.o.........o...oo.o.o.o......
+```
 
 the biggest square in this map is represented by 'x' caracters.
 
+```
 .ooo..o..o.o.o..o.oo.o........o.oo.o....o.....o...o...oo..o..ooo........oxxxxo........o.o.o...ooo
 .o.o.......o...o.o.oo...........o...o.o...oo.o..o..o...o...ooo....oo..oooxxxx..o...............o.
 o..o.........o.....oo..ooo.o..o..o....o....o.oo.......oo.....oo.......o..xxxx.o..o.ooo.oo........
@@ -57,3 +63,4 @@ oooo...o............o..oo............oo...oo.....o...o....o.o.o.o.....o.o..oo...
 ..o....oo..o.o.....o.o..o.o...oo......o...o..o....o.............o..oo..............o....o..o....o
 oo......o....o.o...oo...oo.o.......o..o.o...............o..oooo..o.o.......oo..oo..........o...o.
 .oo..o.o...oo.......o.o..o.o..o..o...oo..o.oo......o....oo......oo.o.o.........o...oo.o.o.o......
+```
